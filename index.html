@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>首页 - 我的小站</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <style>
+    footer { text-align: center; opacity: .75; padding: 2rem 0; }
+    article { height: 100%; }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <nav>
+      <ul><li><strong>我的小站</strong></li></ul>
+      <ul>
+        <li><a href="index.html" aria-current="page">首页</a></li>
+        <li><a href="links.html">网址导航</a></li>
+        <li><a href="about.html">关于我</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <hgroup>
+        <h1>你好，我是 你的名字</h1>
+        <p>一个喜欢折腾输入法、写点小工具、记录学习笔记的人。这里是我的个人主页，用来分享项目、收藏链接和随想。</p>
+      </hgroup>
+      <p>
+        <a role="button" href="links.html">逛逛网址导航</a>
+        <a role="button" class="secondary" href="about.html">关于我</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>最近在做什么</h2>
+      <div class="grid">
+        <article>
+          <h3>🌱 万象拼音相关</h3>
+          <p>整理 Rime 配置、词库和文档，让输入更顺手。</p>
+        </article>
+        <article>
+          <h3>🛠️ 小工具</h3>
+          <p>写一些脚本和网页小工具，解决日常小问题。</p>
+        </article>
+        <article>
+          <h3>📚 学习笔记</h3>
+          <p>记录前端、Linux 和效率软件的使用心得。</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>快速链接</h2>
+      <div class="grid">
+        <article>
+          <h3><a href="links.html">🔗 网址导航</a></h3>
+          <p>常用网站、工具和友链集合。</p>
+        </article>
+        <article>
+          <h3><a href="about.html">👤 关于我</a></h3>
+          <p>简单介绍一下我自己。</p>
+        </article>
+        <article>
+          <h3><a href="https://github.com/你的用户名" target="_blank" rel="noopener">💻 GitHub</a></h3>
+          <p>我的开源项目和代码。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <small>© 2025 你的名字 · 由 GitHub Pages 驱动</small>
+  </footer>
+</body>
+</html>
